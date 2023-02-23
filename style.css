@@ -1,14 +1,12 @@
-* {
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
+    background-color:  rgb(19, 20, 21);
 }
 
 .container {
     width: 100%;
     /* height: 100vh; */
-    background:  rgb(19, 20, 21);
+    /* background:  rgb(19, 20, 21); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,8 +15,8 @@
 .img {
     display: flex;
     justify-content: center;
-    background: rgb(19, 20, 21);
-    padding: 2vw 4vw;
+    /* background: rgb(19, 20, 21); */
+    /* padding: 2vw 4vw; */
 }
 
 img {
@@ -33,8 +31,8 @@ form {
     padding: 2vw 4vw;
     width: 90%;
     max-width: 600px;
-    border-radius: 10px;
-    border-color: black;
+    border-radius: 100px;
+    border-color: #ffd000;
 }
 
 
@@ -42,10 +40,9 @@ form input, form textarea {
     border: 0;
     margin: 10px 0;
     padding: 20px;
-    outline: navy;
     /* background: purple; */
     font-size: 16px;
-
+    border-color: #ffd000;
 }
 
 button[type="submit"] {
@@ -71,10 +68,10 @@ h1 {
     display: flex;
     align-items: top;
     justify-content: center;
-    background-color: rgb(19, 20, 21) ;
-    padding: 25px;
+    /* background-color: rgb(19, 20, 21) ; */
+    /* padding: 25px; */
     font-size: 5.2em;
-    line-height: 1.1;
+    /* line-height: 1.1; */
     text-align: center;
     /* margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -84,6 +81,8 @@ h1 {
 }
 
 p {
-    background-color: rgb(19, 20, 21);
+    /* background-color: rgb(19, 20, 21); */
     color: white;
+    display: flex;
+    justify-content: center;
 }
