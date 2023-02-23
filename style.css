@@ -82,3 +82,8 @@ h1 {
     margin-inline-end: 0px; */
     /*   */
 }
+
+p {
+    background-color: rgb(19, 20, 21);
+    color: white;
+}
