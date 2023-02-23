@@ -1,6 +1,9 @@
 body {
     margin: 0;
+    padding: 0;
     background-color:  rgb(19, 20, 21);
+    display: flex;
+    justify-content: center;
 }
 
 .container {
@@ -66,7 +69,7 @@ h1 {
     color: #C0C0C0;
     font-family: Tarrget Condensed, sans-serif;
     display: flex;
-    align-items: top;
+    /* align-items: top; */
     justify-content: center;
     /* background-color: rgb(19, 20, 21) ; */
     /* padding: 25px; */
